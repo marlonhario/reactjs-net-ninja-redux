@@ -1,0 +1,69 @@
+to run?
+	- drag index.html into browser
+What is React?
+	- JavaScript library created by Facebook
+	- Also used by Netflix & Instagram
+	- Used to create JS-driven dynamic web apps
+	- In that regard, can be compared to Angular & Vue
+
+What is Redux?
+	- A layer on-top of React
+	- Helps with state management of our app
+		- data in the app
+		- UI state of the app
+	- Learn this in the 2nd half of the playlist
+
+
+What we'll learn (hopefully)
+	- React basics
+		- components, events, templates, props & forms
+	- React Router
+		- routes, route parameters, redirects
+	- Redux
+		- stores, actions & reducers
+	
+
+Components & Templates
+	- Components look like HTML templates (actually JSX)
+	- They can contain 'state' (data or UI state)
+	- They also can contain JavaScript for functionality
+
+
+Component State
+	- JavaScript Object
+	- Describe the current state of the component
+		- data, UI-state
+	-The state of a component can be updated over time
+		- a modal could close 
+		- the data we output could change	
+
+
+Destructuring
+
+
+
+Container vs UI Components
+	
+	Container Components 
+		- Contain state
+		- Contain lifecycle hooks
+		- Not concerned with UI
+		- Use classes to create 
+	UI Components
+		- Don't contain state
+		- Receive data from props
+		- Only concerned with UI
+		- Use functions to create
+
+
+Redux 
+	- Central data store for all app data
+	- Any component can access data from it
+	- Makes state management easy
+
+Install redux ==============
+	: npm install redux react-redux
+
+
+install radium for CSS manipulation ======
+	: npm install --save radium
